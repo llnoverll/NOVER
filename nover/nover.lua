@@ -210,14 +210,15 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "esdar",
     "kool",
-    "new.my",
+    "newmy",
     "lockbot",
     "info",
     "tagall",
     "loke.fod",
     "super",
-    "ned.bot",
+    "nedbot",
     "miosc",
     "my",
     "gaepfail",
@@ -232,10 +233,10 @@ function create_config( )
     "untitled",
     "locktag",
     "photosayt",
-    "luke.med",
+    "lukmed",
     "infobot",
-    "my.name",
-    "auot.grob",
+    "myname",
+    "auotgrob",
     "lockonlain",
     "mymsg",
     "del",
@@ -244,7 +245,7 @@ function create_config( )
     "dinfo",
     "mme",
     "taha",
-    "untitled",
+    "replay",
     "banworld",
     "banhammerr",
     "wawlcome",
@@ -252,7 +253,7 @@ function create_config( )
     "linkdaerct",
     "daevtato",
     "bayii",
-    "what.my",
+    "whatmy",
     "shap",
     "ran12",
     "run22",
@@ -269,7 +270,7 @@ function create_config( )
     "robot",
     "runnnn",
     "runee",
-    "spam"
+    "spam",
 
     },
     sudo_users = {321050917,373906612},--Sudo users

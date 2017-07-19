@@ -25,18 +25,18 @@ rst=$'\e[0m'
 
 cat << EOF
 
- $f1  @llX8Xll
- $f1  @DEV_KEEPER_NEW
- $f1  @lZlxlZlBOT
+ $f1  @N0VER
+ $f1  @DEV_NOVER
+ $f1  @KM11Qbot
  
 EOF
-echo -e "               \e[100m                KEEPER script            \e[00;37;40m"
-echo -e "               \e[01;34m              CH > @DEV_KEEPER_NEW          \e[00;37;40m"
+echo -e "               \e[100m                NOVER script            \e[00;37;40m"
+echo -e "               \e[01;34m              CH > @DEV_NOVER          \e[00;37;40m"
 echo ""
 cat << EOF
- $f1  @llX8Xll
- $f1  @DEV_KEEPER_NEW
- $f1  @lZlxlZlBOT
+  $f1  @N0VER
+ $f1  @DEV_NOVER
+ $f1  @KM11Qbot
 EOF
 
 sleep 1.2
@@ -55,10 +55,10 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m             CH  : @DEV_KEEPER_NEW                               \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @llX8Xll                  \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @lZlxlZlBOT                      \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @llxlxll                       \033[0;00m"
+echo -e "\033[38;5;208m             CH  : @DEV_NOVER                               \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @N0VER                  \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @KM11Qbot                      \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @vvcfggfstt                       \033[0;00m"
 
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -96,8 +96,8 @@ sleep 3
 
 while true; do
   
-	echo -e "$f1 وقت التحقق والتشغيل:$f4 $OK $rst"
-	echo -e "$f1 عدد الفشل والاسترداد:$f4 $BAD $rst"
+	echo -e "$f1 الوقت المتبقي للتشغيل:$f4 $OK $rst"
+	echo -e "$f1 عدد الفشل :$f4 $BAD $rst"
 	echo ""
 	
 	cat /proc/$CLIPID/task/$CLIPID/status > CHECK
@@ -179,18 +179,18 @@ rst=$'\e[0m'
 
 cat << EOF
 
- $f1  @llX8Xll
- $f1  @DEV_KEEPER_NEW
- $f1  @lZlxlZlBOT
+  $f1  @N0VER
+ $f1  @DEV_NOVER
+ $f1  @KM11Qbot
  
 EOF
-echo -e "                \e[100m                KEEPER script           \e[00;37;40m"
-echo -e "               \e[01;34m              CH > @DEV_KEEPER_NEW  \e[00;37;40m"
+echo -e "                \e[100m                nover script           \e[00;37;40m"
+echo -e "               \e[01;34m              CH > @dev_nover  \e[00;37;40m"
 echo ""
 cat << EOF
-  $f1  @llX8Xll
- $f1  @DEV_KEEPER_NEW
- $f1  @lZlxlZlBOT
+   $f1  @N0VER
+ $f1  @DEV_NOVER
+ $f1  @KM11Qbot
 EOF
 
 sleep 1.3
@@ -209,10 +209,10 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m             CH  : @DEV_KEEPER_NEW                               \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @llX8Xll                  \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @lZlxlZlBOT                      \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @llxlxll                       \033[0;00m"
+echo -e "\033[38;5;208m             CH  : @dev_nover                               \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @n0ver                  \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @km11qbot                      \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @vvcfggfstt                       \033[0;00m"
 
 # Starting preliminar setup
 sleep 1.5
@@ -331,8 +331,8 @@ sleep 5
 
   while true; do
   
-	echo -e "$f1 وقت التحقق والتشغيل:$f4 $OK $rst"
-	echo -e "$f1 عدد الفشل والاسترداد:$f4 $BAD $rst"
+	echo -e "$f1 الوقت المتبقي للتشغيل:$f4 $OK $rst"
+	echo -e "$f1 عدد الفشل :$f4 $BAD $rst"
 	echo ""
 	
 	cat /proc/$CLIPID/task/$CLIPID/status > CHECK
@@ -495,10 +495,10 @@ while getopts ":tsTSih" opt; do
 	echo ""
 	echo -e "\e[0m"
 
-echo -e "\033[38;5;208m             CH  : @DEV_KEEPER_NEW                               \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @llX8Xll                  \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @lZlxlZlBOT                      \033[0;00m"
-echo -e "\033[38;5;208m             DEV : @llxlxll                       \033[0;00m"
+echo -e "\033[38;5;208m             CH  : @DEV_NOVER                               \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @N0VER                  \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @KM11QBOT                      \033[0;00m"
+echo -e "\033[38;5;208m             DEV : @vvcfggfstt                       \033[0;00m"
 echo ""
 	exit 1
       ;;
